@@ -17,6 +17,10 @@
     width: 7%;
     height: auto;
     margin-right: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 h1{

@@ -5,8 +5,22 @@
     font-style: normal;
 }
 
+.title{
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.title img{
+    margin-top: 20px;
+    width: 5%;
+    height: auto;
+    margin-right: 10px;
+}
+
 h1{
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 20px;
 }
 
@@ -24,7 +38,7 @@ h1{
     margin-left: 5%;
     margin-right: 5%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .content div{
@@ -55,6 +69,10 @@ h1{
 
 hr{
     width: 80%;
+    height: 3px;
+    background-color: #000;
+    border: none;
+    border-radius: 20px;
 }
 
 .button_server button{
@@ -78,6 +96,13 @@ hr{
 
 
 @media (max-width: 1300px){
+    .title img{
+        margin-top: 20px;
+        width: 10%;
+        height: auto;
+        margin-right: 10px;
+    }
+
     .content{
         margin-top: 30px;
         display: grid;
@@ -114,6 +139,13 @@ hr{
 }
 
 @media (max-width: 800px){
+    .title img{
+        margin-top: 20px;
+        width: 20%;
+        height: auto;
+        margin-right: 10px;
+    }
+
     .content{
         margin-top: 30px;
         display: grid;

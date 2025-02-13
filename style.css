@@ -94,6 +94,10 @@ hr{
     padding: 20px 100px;
 }
 
+cellphone{
+    display: none;
+}
+
 
 @media (max-width: 1300px){
     .title img{
@@ -193,5 +197,10 @@ hr{
     .button_server button{
         margin-bottom: 40px;
     }
+
+    cellphone{
+        display: block;
+    }
 }
+
 

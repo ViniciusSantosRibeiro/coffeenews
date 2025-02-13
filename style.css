@@ -146,6 +146,15 @@ hr{
         margin-right: 10px;
     }
 
+    .subtitle{
+        font-weight: 100;
+        margin: 0 auto;
+        width: 90%;
+        height: 100%;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
     .content{
         margin-top: 30px;
         display: grid;
